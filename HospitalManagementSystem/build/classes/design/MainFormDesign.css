@@ -1,0 +1,87 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 3, 2023, 1:25:02 AM
+    Author     : hp
+*/
+    .root {
+    -fx-background-image: url("cover.jpg");
+    -fx-background-size: cover;
+
+}
+.white-bg {
+    -fx-background-color: #fff ;
+}
+
+.radius {
+    
+    -fx-background-radius: 5px;
+}
+
+.shadow {
+    
+    -fx-effect: dropshadow(three-pass-box,rgba(0,0,0,0.5),5,0,0,0);
+}
+
+.bg-color-1 {
+    -fx-background-color: linear-gradient(to bottom right , #188ba7 , #306090);
+}
+
+.nav-btn-1 {
+    
+    -fx-background-color: transparent;
+    -fx-border-color: #fff ;
+    -fx-border-width: .5px;
+    -fx-text-fill: #fff;
+    -fx-font-family: Arial;
+    -fx-cursor: hand;
+    -fx-font-size:13px;
+    -fx-alignment:CENTER_LEFT;
+}
+
+.nav-btn-1:hover {
+     -fx-background-color: #fff;
+     -fx-text-fill: #000 ;
+     
+}
+
+.border {
+    -fx-border-color: #000 ;
+    -fx-border-width: .5px;
+}
+
+.header-1 {
+    
+    -fx-border-color: linear-gradient(to bottom right, #188ba7 , #306090);
+    -fx-border-width: 0 0 0 2px;
+    -fx-padding: 0 0 0 5px ;
+}
+
+.table-view {
+    
+    -fx-padding:0;
+   
+    -fx-border-color: linear-gradient(to bottom right, #188ba7 , #306090);
+   
+}
+
+.table-view .column-header-background{
+    
+    -fx-background-color: linear-gradient(to bottom right, #188ba7 , #306090);
+    -fx-background-insets: 0 0 0 0;
+   
+}
+.table-view .column-header, .filter {
+    -fx-background-color :transparent;
+    -fx-size: 40px;
+}
+.table-view .column-header .label {
+    -fx-font-family: Arial;
+    -fx-text-fill: #fff;
+}
+.backgroud-img {
+    
+    -fx-background-image: url("hhh.jpg");
+}

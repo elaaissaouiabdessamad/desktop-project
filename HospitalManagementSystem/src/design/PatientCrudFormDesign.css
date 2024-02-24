@@ -1,0 +1,68 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 4, 2023, 7:17:31 PM
+    Author     : hp
+*/
+
+.btn_search
+{
+     -fx-background-color: #fff ;
+       -fx-cursor: hand;
+}
+.white-bg {
+    -fx-background-color: #fff ;
+    -fx-background-radius: 8px;
+}
+
+.border {
+    -fx-border-color: linear-gradient(to bottom right, #188ba7 , #306090) ;
+    -fx-border-width: 1px;
+    -fx-border-radius: 8px;
+}
+
+.btn-1 {
+    
+    -fx-background-color: #188ba7;
+    -fx-border-color: #fff ;
+    -fx-border-width: .5px;
+    -fx-text-fill: #fff;
+    -fx-font-family: Arial;
+    -fx-cursor: hand;
+    -fx-font-size:14px;
+    
+}
+
+.btn-1:hover {
+     -fx-background-color: #23c1e4;
+     -fx-text-fill: #000 ;
+}
+
+.table-view {
+    
+    -fx-padding:0;
+   
+    -fx-border-color: linear-gradient(to bottom right, #188ba7 , #306090);
+   
+}
+
+.table-view .column-header-background{
+    
+    -fx-background-color: linear-gradient(to bottom right, #188ba7 , #306090);
+    -fx-background-insets: 0 0 0 0;
+   
+}
+.table-view .column-header, .filter {
+    -fx-background-color :transparent;
+    -fx-size: 40px;
+}
+.table-view .column-header .label {
+    -fx-font-family: Arial;
+    -fx-text-fill: #fff;
+}
+
+.table-view .column-header {
+    -fx-alignment:CENTER;
+}
